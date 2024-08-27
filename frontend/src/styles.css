@@ -1,0 +1,54 @@
+body {
+    /* background-color: #f0f0f0; */
+    background-image: url(./img/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+}
+/* body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+} */
+.dashboard-title {
+    background-color: rgba(0, 123, 255, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+.card{
+    background-color: rgb(255,255,255);
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card-body{
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(250, 61, 140);
+}
+
+.owl-icon {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
